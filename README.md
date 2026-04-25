@@ -2,7 +2,10 @@
 
 This project demonstrates how regression models can be evaluated and improved to predict laptop prices.
 
-It simulates a real-world machine learning workflow, focusing on model evaluation, overfitting detection, and performance optimization.
+It simulates a real-world machine learning workflow, focusing on:
+- Model evaluation  
+- Overfitting detection  
+- Performance optimization  
 
 ---
 
@@ -19,7 +22,7 @@ It simulates a real-world machine learning workflow, focusing on model evaluatio
 
 ## Model Complexity vs Performance
 
-![R-squared by Polynomial Degree](R² vs Polynomial Degree.png)
+![R-squared by Polynomial Degree](polynomial-degree-r2.png)
 
 This plot shows how increasing polynomial complexity impacts model performance.  
 Higher-degree models begin to overfit the data, leading to worse performance on unseen test data.
@@ -28,7 +31,7 @@ Higher-degree models begin to overfit the data, leading to worse performance on 
 
 ## Ridge Regularization Impact
 
-![Ridge Regression Alpha vs R-squared](Alpha vs R² (train vs test).png)
+![Ridge Regression Alpha vs R-squared](ridge-alpha-r2.png)
 
 This plot illustrates how the regularization parameter (alpha) affects model performance.  
 Increasing alpha helps reduce overfitting and improves generalization on test data.
@@ -50,4 +53,7 @@ Identified the optimal model complexity and regularization parameter (alpha) to 
 
 ## Tools
 
-Python, Pandas, Scikit-learn, Matplotlib
+Python  
+Pandas  
+Scikit-learn  
+Matplotlib  
